@@ -1,0 +1,81 @@
+@import url('~tachyons/css/tachyons.css');
+@import url('~ipfs-css/ipfs.css');
+@import url('../pages/components/switch-toggle.css');
+
+header {
+  border-color: #69c4cd;
+  text-transform: uppercase;
+}
+#header-logo {
+  height: 50px;
+  width: 117.5px;
+}
+form * {
+  font-family: Inter,system-ui,sans-serif;
+  font-size: 0.875rem;
+}
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+fieldset > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1.5em;
+}
+fieldset > div + div {
+  border-top: 1px solid #ccc;
+}
+label {
+  flex: 1;
+}
+select:hover,
+button:hover,
+label:hover {
+  cursor: pointer;
+}
+label > dl {
+  margin-right: 2em;
+}
+label > dl > dt {
+  font-weight: 600;
+}
+label > dl > dd {
+  margin: .5em 0 .5em 0;
+}
+label a[href^="http"]:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiBQIJABWXvYi2AAAAfklEQVQY05XPuw3CQBBF0YPZjHLINmDbAEEFliiACiBHcgWsXIcTSwSUQ4hEgD9LQMBEV/P0rmb4MYsZ993MOYURz93KceADqjE4pbtLoQpsJ8WmCCpotZZqUT+1wmj9rBtc5wa1h17jJaennKYgWmvchjMKFVH8ejDAzh/zBh37F0UDekL1AAAAAElFTkSuQmCC);
+  padding-left: 0.25em;
+}
+input, textarea {
+  flex: 1;
+  padding: .75em;
+  font-family: monospace;
+}
+input, textarea, select {
+  flex: 1;
+}
+fieldset > div > div,
+#resetAllOptions {
+  flex: 1;
+}
+input[type=text],
+input[type=url],
+input[type=number],
+textarea
+ {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  border-radius: 0.25rem;
+  border: 1px solid #b7bbc8;
+}
+
+input:invalid {
+  border: 1px solid #ea5037;
+  background-color: #f36149;
+}
+.mdc-switch {
+  display: block;
+}

@@ -1,0 +1,23 @@
+[
+    "add",
+    "block",
+    "cat",
+    "dag",
+    "dht",
+    "dns",
+    "files",
+    "get",
+    "id",
+    "ls",
+    "name.resolve",
+    "object",
+    "pin",
+    "ping",
+    "pingPullStream",
+    "pingReadableStream",
+    "pubsub",
+    "repo",
+    "stats",
+    "swarm",
+    "version"
+]
