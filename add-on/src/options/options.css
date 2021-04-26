@@ -1,0 +1,81 @@
+@import url('~tachyons/css/tachyons.css');
+@import url('~ipfs-css/ipfs.css');
+@import url('../pages/components/switch-toggle.css');
+
+header {
+  border-color: #69c4cd;
+  text-transform: uppercase;
+}
+#header-logo {
+  height: 50px;
+  width: 117.5px;
+}
+form * {
+  font-family: Inter,system-ui,sans-serif;
+  font-size: 0.875rem;
+}
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+fieldset > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1.5em;
+}
+fieldset > div + div {
+  border-top: 1px solid #ccc;
+}
+label {
+  flex: 1;
+}
+select:hover,
+button:hover,
+label:hover {
+  cursor: pointer;
+}
+label > dl {
+  margin-right: 2em;
+}
+label > dl > dt {
+  font-weight: 600;
+}
+label > dl > dd {
+  margin: .5em 0 .5em 0;
+}
+label a[href^="http"]:after {
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="%2334373f" viewBox="20 12 60 70"><path d="M75.4 49.9c-.9 0-1.6.7-1.6 1.6v21.8c0 1.5-.6 2.9-1.7 4s-2.5 1.7-4 1.7h-40c-1.5 0-2.9-.6-4-1.7s-1.7-2.5-1.7-4v-40c0-1.5.6-2.9 1.7-4s2.5-1.7 4-1.7h21.8c.9 0 1.6-.7 1.6-1.6s-.7-1.6-1.6-1.6H28.1c-2.4 0-4.6.9-6.3 2.6-1.7 1.7-2.6 3.9-2.6 6.3v40c0 2.4.9 4.6 2.6 6.3 1.7 1.7 3.9 2.6 6.3 2.6h40c2.4 0 4.6-.9 6.3-2.6 1.7-1.7 2.6-3.9 2.6-6.3V51.5c0-.9-.7-1.6-1.6-1.6z"/><path d="M83.8 19.3V19v-.2-.2c0-.1-.1-.1-.1-.2 0 0 0-.1-.1-.1-.1-.1-.1-.2-.2-.2l-.2-.2s-.1 0-.1-.1l-.1-.1c-.1 0-.1 0-.2-.1H60.3c-.9 0-1.6.7-1.6 1.6s.7 1.6 1.6 1.6h17.9l-25.8 26c-.6.6-.6 1.7 0 2.3.3.3.7.5 1.1.5s.8-.2 1.1-.5l25.8-25.8v17.9c0 .9.7 1.6 1.6 1.6s1.6-.7 1.6-1.6l.2-21.9z"/></svg>');
+  padding-left: 0.25em;
+}
+input, textarea {
+  flex: 1;
+  padding: .75em;
+  font-family: monospace;
+}
+input, textarea, select {
+  flex: 1;
+}
+fieldset > div > div,
+#resetAllOptions {
+  flex: 1;
+}
+input[type=text],
+input[type=url],
+input[type=number],
+textarea
+ {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  border-radius: 0.25rem;
+  border: 1px solid #b7bbc8;
+}
+
+input:invalid {
+  border: 1px solid #ea5037;
+  background-color: #f36149;
+}
+.mdc-switch {
+  display: block;
+}
