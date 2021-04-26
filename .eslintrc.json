@@ -1,0 +1,8 @@
+{
+    "rules": {
+        "linebreak-style": [1,"unix"],
+        "space-before-function-paren": 1,
+        "padded-blocks": 1
+    },
+    "extends": "standard"
+}

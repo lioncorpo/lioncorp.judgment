@@ -1,0 +1,8 @@
+.*
+*
+!/data/**
+!/webextension/**
+!/lib/**
+!/locale/**
+!/package.json
+!/LICENSE

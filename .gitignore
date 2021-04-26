@@ -1,0 +1,7 @@
+*.xpi
+vendor
+_vendor
+node_modules
+firefox
+cache
+npm-debug.log
