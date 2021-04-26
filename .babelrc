@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "syntax-async-generators"
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "firefox": 68,
+          "chrome": 72
+        }
+      }
+    ]
+  ]
+}
