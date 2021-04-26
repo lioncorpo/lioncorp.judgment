@@ -1,0 +1,267 @@
+{
+  "browserAction_title": {
+    "message": "IPFS Begleiter",
+    "description": "A pop-up title when user hovers on Browser Action button"
+  },
+  "panel_statusGatewayRedirect": {
+    "message": "Weiterleitung",
+    "description": "A label in Node status section of Browser Action pop-up"
+  },
+  "panel_statusGatewayRedirectEnabled": {
+    "message": "aktiviert",
+    "description": "Redirect state in Node status section of Browser Action pop-up"
+  },
+  "panel_statusGatewayRedirectDisabled": {
+    "message": "deaktiviert",
+    "description": "Redirect state in Node status section of Browser Action pop-up"
+  },
+  "panel_statusGatewayAddress": {
+    "message": "Gateway",
+    "description": "A label in Node status section of Browser Action pop-up"
+  },
+  "panel_statusGatewayVersion": {
+    "message": "Version",
+    "description": "A label in Node status section of Browser Action pop-up"
+  },
+  "panel_statusSwarmPeers": {
+    "message": "Schwarmpeers",
+    "description": "A label in Node status section of Browser Action pop-up"
+  },
+  "panel_quickUpload": {
+    "message": "Schnell-Upload",
+    "description": "A menu item in Browser Action pop-up"
+  },
+  "panel_openWebui": {
+    "message": "WebUI öffnen",
+    "description": "A menu item in Browser Action pop-up"
+  },
+  "panel_openPreferences": {
+    "message": "Einstellungen öffnen",
+    "description": "A menu item in Browser Action pop-up"
+  },
+  "panel_toggleGatewayRedirectEnable": {
+    "message": "Gateway-Weiterleitung aktivieren",
+    "description": "A menu item in Browser Action pop-up"
+  },
+  "panel_toggleGatewayRedirectDisable": {
+    "message": "Gateway-Weiterleitung deaktivieren",
+    "description": "A menu item in Browser Action pop-up"
+  },
+  "panel_pinCurrentIpfsAddress": {
+    "message": "IPFS-Ressource anpinnen",
+    "description": "A menu item in Browser Action pop-up"
+  },
+  "panel_unpinCurrentIpfsAddress": {
+    "message": "IPFS-Ressource abpinnen",
+    "description": "A menu item in Browser Action pop-up"
+  },
+  "panelCopy_currentIpfsAddress": {
+    "message": "Kanonische Adresse kopieren",
+    "description": "A menu item in Browser Action pop-up and right-click context menu"
+  },
+  "panel_copyCurrentPublicGwUrl": {
+    "message": "Öffentliche Gateway-URL kopieren",
+    "description": "A menu item in Browser Action pop-up and right-click context menu"
+  },
+  "contextMenu_uploadToIpfs": {
+    "message": "Auf IPFS hochladen",
+    "description": "An item in right-click context menu"
+  },
+  "notify_addonIssueTitle": {
+    "message": "IPFS Add-on-Problem",
+    "description": "A title of system notification"
+  },
+  "notify_addonIssueMsg": {
+    "message": "Weitere Informationen finden Sie in der Browser-Konsole",
+    "description": "A message in system notification"
+  },
+  "notify_copiedPublicURLTitle": {
+    "message": "Kopierte öffentliche URL",
+    "description": "A title of system notification"
+  },
+  "notify_copiedCanonicalAddressTitle": {
+    "message": "Kopierte kanonische Adresse",
+    "description": "A title of system notification"
+  },
+  "notify_pinnedIpfsResourceTitle": {
+    "message": "IPFS-Ressource wurde angepinnt",
+    "description": "A title of system notification"
+  },
+  "notify_unpinnedIpfsResourceTitle": {
+    "message": "IPFS-Pin wurde entfernt",
+    "description": "A title of system notification"
+  },
+  "notify_pinErrorTitle": {
+    "message": "Fehler beim Anpinnen der IPFS-Ressource",
+    "description": "A title of system notification"
+  },
+  "notify_unpinErrorTitle": {
+    "message": "Fehler beim Entfernen des IPFS-Pin",
+    "description": "A title of system notification"
+  },
+  "notify_apiOnlineTitle": {
+    "message": "IPFS API ist online",
+    "description": "A title of system notification"
+  },
+  "notify_apiOnlineAutomaticModeMsg": {
+    "message": "Automatischer Modus: Benutzerdefinierte Gateway-Weiterleitung ist aktiv",
+    "description": "A message in system notification"
+  },
+  "notify_apiOfflineTitle": {
+    "message": "IPFS API ist offline",
+    "description": "A title of system notification"
+  },
+  "notify_apiOfflineAutomaticModeMsg": {
+    "message": "Automatischer Modus: Öffentliches Gateway wird als Fallback verwendet",
+    "description": "A message in system notification"
+  },
+  "notify_uploadErrorTitle": {
+    "message": "Upload via IPFS API funktioniert nicht",
+    "description": "A title of system notification"
+  },
+  "notify_uploadTrackingProtectionErrorMsg": {
+    "message": "Tracking-Schutz deaktivieren (Strg + Umschalt + j für mehr Informationen)"
+  },
+  "notify_inlineMsg": {
+    "message": "$MSG$",
+    "placeholders": {
+      "msg": {
+        "content": "$1"
+      }
+    },
+    "description": "A generic placeholder for notification message, leave as-is"
+  },
+  "notify_inlineErrorMsg": {
+    "message": "$ERROR$ (Strg + Umschalt + j für mehr Informationen)",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    },
+    "description": "A generic placeholder for error notification"
+  },
+  "option_header_gateways": {
+    "message": "Gateways",
+    "description": "A section header on the Preferences screen"
+  },
+  "option_customGatewayUrl_title": {
+    "message": "Benutzerdefiniertes lokales Gateway",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_customGatewayUrl_description": {
+    "message": "URL des bevorzugten HTTP2IPFS Gateways",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_useCustomGateway_title": {
+    "message": "Benutzerdefiniertes Gateway verwenden",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_useCustomGateway_description": {
+    "message": "Anfragen an öffentliche Gateways an das benutzerdefinierte Gateway weiterleiten",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_publicGatewayUrl_title": {
+    "message": "Öffentliches Standardgateway",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_publicGatewayUrl_description": {
+    "message": "Fallback-URL verwenden, wenn benutzerdefiniertes Gateway nicht verfügbar ist und für das Kopieren von teilbaren Links",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_header_api": {
+    "message": "API",
+    "description": "A section header on the Preferences screen"
+  },
+  "option_ipfsApiUrl_title": {
+    "message": "IPFS API URL",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_ipfsApiUrl_description": {
+    "message": "Hinweis: hier befindet sich \/webui",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_ipfsApiPollMs_title": {
+    "message": "Statusabrufintervall",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_ipfsApiPollMs_description": {
+    "message": "Aktualisierungsfrequenz der Anzahl Nachbarn (in Millisekunden)",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_automaticMode_title": {
+    "message": "Automatischer Modus",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_automaticMode_description": {
+    "message": "Verwendung von benutzerdefinierten Gateways wechseln, wenn sich die IPFS API-Verfügbarkeit ändert",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_header_experiments": {
+    "message": "Experimente",
+    "description": "A section header on the Preferences screen"
+  },
+  "option_experiments_warning": {
+    "message": "ACHTUNG: diese Funktionen sind neu oder befinden sich noch in der Entwicklung. Nutzung auf eigenes Risiko.",
+    "description": "Warning about Experiments section on the Preferences screen"
+  },
+  "option_displayNotifications_title": {
+    "message": "Benachrichtigungen aktivieren",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_displayNotifications_description": {
+    "message": "Zeigt Systembenachrichtigungen an, wenn sich die API ändert, ein Link kopiert wird usw.",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_catchUnhandledProtocols_title": {
+    "message": "Nicht aktive IPFS Protokolle entgegennehmen",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_catchUnhandledProtocols_description": {
+    "message": "Ermöglicht die Unterstützung für ipfs:\/\/$cid, ipns:\/\/$peerid und dweb:\/ipfs\/$cid durch die Normalisierung der Links und Anfragen durch nicht aktive Protokolle",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_linkify_title": {
+    "message": "IPFS Adressen in Links umwandeln",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_linkify_description": {
+    "message": "Unkodierte \/ipfs\/ Pfade in anklickbare Links umwandeln",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_dnslink_title": {
+    "message": "DNSLINK Unterstützung",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_preloadAtPublicGateway_title": {
+    "message": "Preload Uploads",
+    "description": "An option title on the Preferences screen"
+  },
+  "option_preloadAtPublicGateway_description": {
+    "message": "Ermöglicht automatischen Preload der Upload über asynchrone HTTP HEAD-Requests an ein öffentliches Gateway",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_dnslink_description": {
+    "message": "DNS-Lookup für jede besuchte Website durchführen und benutzerdefinierte Gateways benutzen, wenn DNSLINK im DNS-TXT-Datensatz hinterlegt ist (verlangsamt wahrscheinlich den Browser)",
+    "description": "An option description on the Preferences screen"
+  },
+  "option_resetAllOptions_title": {
+    "message": "Alle Einstellungen zurücksetzen",
+    "description": "An option title and button label on the Preferences screen"
+  },
+  "option_resetAllOptions_description": {
+    "message": "Ersetzt alle Benutzereinstellungen mit der Standardkonfiguration (kann nicht rückgängig gemacht werden!)",
+    "description": "An option description on the Preferences screen"
+  },
+  "manifest_extensionName": {
+    "message": "IPFS Begleiter",
+    "description": "Extension name in the Manifest file"
+  },
+  "manifest_shortExtensionName": {
+    "message": "IPFS Begleiter",
+    "description": "Short extension name in the Manifest file"
+  },
+  "manifest_extensionDescription": {
+    "message": "Browser-Erweiterung, die den Zugriff auf IPFS-Ressourcen vereinfacht",
+    "description": "Extension description in the Manifest file"
+  }
+}
