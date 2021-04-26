@@ -1,0 +1,54 @@
+{
+  "browser_action": {
+    "browser_style": false
+  },
+  "options_ui": {
+    "browser_style": false
+  },
+  "applications": {
+    "gecko": {
+      "id": "ipfs-firefox-addon@lidel.org",
+      "strict_min_version": "68.0"
+    }
+  },
+  "page_action": {
+    "default_icon": {
+      "128": "icons/ipfs-logo-off.svg"
+    },
+    "default_title": "__MSG_pageAction_titleNonIpfs__",
+    "default_popup": "dist/popup/page-action/index.html"
+  },
+  "content_scripts": [ ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+dweb",
+      "name": "IPFS Companion: DWEB Protocol Handler",
+      "uriTemplate": "https://gateway.ipfs.io/ipfs/bafkreiegmsbyyxqe3otwyymguym5sflugdf2bnfh75sk3rqcfgvnyatgry#%s"
+    },
+    {
+      "protocol": "web+ipns",
+      "name": "IPFS Companion: IPNS Protocol Handler",
+      "uriTemplate": "https://gateway.ipfs.io/ipfs/bafkreiegmsbyyxqe3otwyymguym5sflugdf2bnfh75sk3rqcfgvnyatgry#%s"
+    },
+    {
+      "protocol": "web+ipfs",
+      "name": "IPFS Companion: IPFS Protocol Handler",
+      "uriTemplate": "https://gateway.ipfs.io/ipfs/bafkreiegmsbyyxqe3otwyymguym5sflugdf2bnfh75sk3rqcfgvnyatgry#%s"
+    },
+    {
+      "protocol": "dweb",
+      "name": "IPFS Companion: DWEB Protocol Handler",
+      "uriTemplate": "https://gateway.ipfs.io/ipfs/bafkreiegmsbyyxqe3otwyymguym5sflugdf2bnfh75sk3rqcfgvnyatgry#%s"
+    },
+    {
+      "protocol": "ipns",
+      "name": "IPFS Companion: IPNS Protocol Handler",
+      "uriTemplate": "https://gateway.ipfs.io/ipfs/bafkreiegmsbyyxqe3otwyymguym5sflugdf2bnfh75sk3rqcfgvnyatgry#%s"
+    },
+    {
+      "protocol": "ipfs",
+      "name": "IPFS Companion: IPFS Protocol Handler",
+      "uriTemplate": "https://gateway.ipfs.io/ipfs/bafkreiegmsbyyxqe3otwyymguym5sflugdf2bnfh75sk3rqcfgvnyatgry#%s"
+    }
+  ]
+}
