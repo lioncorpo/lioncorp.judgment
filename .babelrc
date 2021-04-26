@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "transform-es2015-modules-commonjs",
+    "syntax-async-generators"
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": true,
+        "targets": {
+          "firefox": 63,
+          "chrome": 67
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "addons": {
+        "ipfs-companion-dev-build@ci.ipfs.team": {
+            "updates": [
+                {
+                    "version": "2.5.0.11550",
+                    "applications": {
+                        "gecko": {
+                            "strict_min_version": "59"
+                        }
+                    },
+                    "update_hash": "sha256:0401054c10699e9d5d0703017f57d1f28b7bd599fedefd2be7297ed865517605",
+                    "update_link": "https://github.com/ipfs-shipyard/ipfs-companion/releases/download/v2.5.0.11550/ipfs_companion_beta_build-2.5.0.11550-an+fx.xpi"
+                },
+                {
+                    "version": "2.5.1.11870",
+                    "applications": {
+                        "gecko": {
+                            "strict_min_version": "59"
+                        }
+                    },
+                    "update_hash": "sha256:b0faaa1a08790e26462593b78ac8d5b6ebdd4249caa9e91b0642595e2a3cc07a",
+                    "update_link": "https://github.com/ipfs-shipyard/ipfs-companion/releases/download/v2.5.1.11870/ipfs_companion_beta_build-2.5.1.11870-an+fx.xpi"
+                }
+            ]
+        }
+    }
+}
