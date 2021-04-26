@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+    - 10.15.1
+matrix:
+    allow_failures:
+        - os: windows
+cache:
+    - npm
+    - yarn
+os:
+    - linux
+    - osx
+    - windows
+addons:
+    homebrew:
+        packages: jq
+install:
+    - npm run ci:install
+script:
+    - npm run ci:build
+    - npm run ci:test
+    - npm run ci:lint
+after_success: npx nyc report --reporter=text-lcov > coverage.lcov && npx codecov
+notifications:
+    email: false
