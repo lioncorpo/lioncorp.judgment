@@ -1,0 +1,11 @@
+vendor
+node_modules
+package-lock.json
+firefox
+cache
+build
+npm-debug.log
+yarn-error.log
+crowdin.yml
+.*~
+add-on/dist
